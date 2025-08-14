@@ -19,6 +19,24 @@ body{
 }
 main{
     padding: 1.1rem;
+
+    footer{
+        position: absolute;
+        
+    border: 2px solid rgba(128, 128, 128, 0.574);
+    width: 70%;
+    margin-left: 18rem;
+   top: 320%;
+   display: flex ;
+//    align-items: center;
+   justify-content: center;
+//    padding:0rem 0rem;
+p{
+    font-weight: 700;
+    opacity: .574;
+}
+}
+
 }
 header{
 position: fixed;
@@ -34,6 +52,7 @@ position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
     .nav{
         display: none;
     }
@@ -446,7 +465,7 @@ position: fixed;
   align-items: center;
   margin-left: 5rem;
   
-  
+ padding-top:2rem ;
 
 
     .up{
@@ -711,7 +730,98 @@ bottom: 50%;
 
 }
 
+.detail{
+    position: absolute;
+    min-height:auto;
+    background-color: #F3F4F6;
+    width:70%;
+    // padding: 1.5rem;
+    padding-left: 2rem;
+    // margin: 2rem;
+    display: flex;
+    align-items: center;
+    left:20%;
+    flex-direction: row;
+    margin-top: 2.4rem;
+    
+top: 274%;
+    .brand{
+        display: flex;
+        // align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        padding:1.5rem;
+        // padding-bottom: 1.5rem;
+        // padding-bottom: 2.8rem;
+        gap: .5rem;
+        // bottom: 200%;
 
+        h1{
+            font-size: 2.4rem;
+            font-weight: 600;
+            .dot{
+                 color: purple;
+        //    font-size: 50px;
+           opacity: .5;
+
+            }
+
+        }
+        p{
+            color: #414141;
+            opacity: .7;
+          width: 50%;
+        }
+    }
+    .company{
+        display: flex;
+        position: absolute;
+        // align-items: center;
+        // margin-right: 2rem;
+        flex-direction: column;
+        right: 30%;
+        
+ h1{
+             font-size: 1.5rem;
+            font-weight: 500;
+            // padding: 1.5rem;
+            // padding-bottom: 15px;
+            opacity: .7;
+ }
+ a{
+    text-decoration: none;
+    color: #414141;
+    padding-left: 1.5rem;
+   padding-bottom: .2rem;
+   
+ }
+    }
+    .call{
+         display: flex;
+         position: absolute;
+        // align-items: center;
+        // right:%;
+        left: 70%;
+        top: 7%;
+        flex-direction: column;
+        margin-top: .4rem;
+        h1{
+             font-size: 1.5rem;
+            font-weight: 500;
+            opacity: .7;
+            // padding: 1.5rem;
+            // bottom: 100%;
+            // padding-bottom: 20px;
+ }
+ p{
+//    padding-left: 1.5rem; 
+//    padding-bottom: .2rem;
+   opacity: .7;
+   font-size: 1.2rem;
+ }
+    }
+    
+}
 
 
 
