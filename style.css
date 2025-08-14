@@ -420,4 +420,76 @@ header .font i {
     cursor: pointer;
     color: #414141;
   }
+  .hero {
+    position: relative;
+    height: 42rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5rem;
+    bottom: 50%;
+  }
+  .hero .icons {
+    display: flex;
+    align-items: center;
+    left: 12%;
+    flex-direction: column;
+    margin: 1.7rem;
+    position: relative;
+    bottom: 165%;
+    width: 100%;
+    margin-left: 10rem;
+  }
+  .hero .icons h3 {
+    font-size: 14px;
+    margin-top: 1rem;
+    opacity: 0.6;
+  }
+  .hero .icons p {
+    font-size: 12px;
+    margin-top: 0.5rem;
+    color: #414141;
+    width: 80%;
+  }
+  .hero .discount {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    right: 35%;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    bottom: 135%;
+    position: relative;
+  }
+  .hero .discount h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .hero .discount p {
+    margin: 1rem;
+    opacity: 0.8;
+  }
+  .hero .discount .inp {
+    display: flex;
+  }
+  .hero .discount .inp input {
+    padding: 10px 40px;
+    margin-top: 0.2rem;
+  }
+  .hero .discount .inp .sub {
+    padding: 10px 25px;
+    margin-top: 0.2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .hero .discount .inp .sub .sub:hover {
+    scale: 0.95;
+    background-color: rgba(0, 0, 0, 0.111);
+  }
 }/*# sourceMappingURL=style.css.map */
