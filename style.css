@@ -565,6 +565,7 @@ header .font i {
     left: 20%;
     flex-direction: row;
     margin-top: 2.4rem;
+    overflow-x: hidden;
     top: 274%;
   }
   .detail .brand {

@@ -365,6 +365,7 @@ margin-top: 1.5rem;
 
 
 @media (min-width:1024px){
+    
     header{
 position: fixed;
   top: 0;
@@ -446,6 +447,7 @@ position: fixed;
   display: flex;
   align-items: center;
   margin-left: 5rem;
+//   overflow-x: hidden;
   
   
 
@@ -516,6 +518,7 @@ position: fixed;
         height: 300px;
         height: 100%;
         width: 100%;
+        // overflow-x: hidden;
        
         img{
             height: 100%;
@@ -532,6 +535,7 @@ position: fixed;
 
 // background-color: red;
 width: 80%;
+// overflow-x: hidden;
 // min-height: px;
 display: flex;
 justify-content: center;
@@ -572,7 +576,7 @@ left: 59%;
   }
   .bottom{
 height: 90%;
-
+// overflow-x: hidden;
 width: 90%;
 // display: flex;
 
@@ -624,6 +628,7 @@ padding: 2rem;
     flex-direction: row;
     margin-top: 5rem;
 bottom: 50%;
+// overflow-x: hidden;
 
     .icons{
         display: flex;
@@ -727,6 +732,7 @@ bottom: 50%;
     left:20%;
     flex-direction: row;
     margin-top: 2.4rem;
+    overflow-x: hidden;
     
 top: 274%;
     .brand{
@@ -738,6 +744,7 @@ top: 274%;
         // padding-bottom: 1.5rem;
         // padding-bottom: 2.8rem;
         gap: .5rem;
+        // overflow-x: hidden;
         // bottom: 200%;
 
         h1{
@@ -764,6 +771,7 @@ top: 274%;
         // margin-right: 2rem;
         flex-direction: column;
         right: 30%;
+       
         
  h1{
              font-size: 1.5rem;
