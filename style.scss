@@ -19,24 +19,6 @@ body{
 }
 main{
     padding: 1.1rem;
-
-    footer{
-        position: absolute;
-        
-    border: 2px solid rgba(128, 128, 128, 0.574);
-    width: 70%;
-    margin-left: 18rem;
-   top: 320%;
-   display: flex ;
-//    align-items: center;
-   justify-content: center;
-//    padding:0rem 0rem;
-p{
-    font-weight: 700;
-    opacity: .574;
-}
-}
-
 }
 header{
 position: fixed;
@@ -52,7 +34,6 @@ position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
     .nav{
         display: none;
     }
@@ -272,6 +253,7 @@ margin-top: 1.5rem;
          p{
            margin: 1rem;
            opacity: .8;
+           padding-left: 1.5rem;
            
          }
          .inp{
@@ -465,7 +447,7 @@ position: fixed;
   align-items: center;
   margin-left: 5rem;
   
- padding-top:2rem ;
+  
 
 
     .up{
@@ -697,6 +679,8 @@ bottom: 50%;
          p{
            margin: 1rem;
            opacity: .8;
+           padding-left: 1rem;
+           width: 90%;
            
          }
          .inp{
@@ -820,8 +804,8 @@ top: 274%;
    font-size: 1.2rem;
  }
     }
-    
 }
+
 
 
 
