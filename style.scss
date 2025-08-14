@@ -15,6 +15,7 @@ html {
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
 
 }
 main{
@@ -365,7 +366,9 @@ margin-top: 1.5rem;
 
 
 @media (min-width:1024px){
-    
+   
+
+
     header{
 position: fixed;
   top: 0;
@@ -732,7 +735,12 @@ bottom: 50%;
     left:20%;
     flex-direction: row;
     margin-top: 2.4rem;
-    overflow-x: hidden;
+    
+    // position: relative; /* absolute se relative */
+    //     top: auto; /* top remove */
+    //     left: auto; /* left remove */
+    //     margin-top: 2rem; /* thoda space upar se */
+
     
 top: 274%;
     .brand{
