@@ -9,6 +9,10 @@ html,body{
     width: 100%;
     background-color: #ffffff;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -17,6 +21,13 @@ main{
     padding: 1.1rem;
 }
 header{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+
     height: 4rem;
     width: 100%;
     // background-color: blue;
@@ -138,6 +149,7 @@ flex-direction: column;
    height: 4%;
    width: fit-content;
 //    background-color: red;
+// position: relative;
 
 h1{
     font-size: 2rem;
@@ -149,11 +161,12 @@ h1{
 }
 .hyphen{
     border:1px solid #414141;
-   position: absolute;
-width: 8%;
-bottom: 24%;
-left: 84%;
-opacity: 0.8;
+//    position: relative;
+// width: 8%;
+// background-color: red;
+// bottom: -40%;
+display: none;
+// opacity: 0.8;
 
 
    }
@@ -193,6 +206,85 @@ margin-top: 1.5rem;
   }
   }
 }
+.hero{
+    // position: relative;
+    height: 42rem;
+    // background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+
+
+    .icons{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1.7rem;
+    //  gap: 1rem;
+
+     h3{
+        font-size: 14px;
+        margin-top: 1rem;
+        // color: #414141;
+        opacity: 0.6;
+     }
+     p{
+        font-size: 12px;
+        margin-top: 0.5rem;
+        color: #414141;
+     }
+    }
+
+    .discount{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin: 2rem;
+         h3{
+            font-size: 1.4rem;
+            font-weight: 500;
+            opacity: 0.8;
+            // margin-bottom: 0.7rem;
+         }
+         p{
+           margin: 1rem;
+           opacity: .8;
+           
+         }
+         .inp{
+            display: flex;
+
+
+       input{
+       padding:10px 40px;
+       margin-top: .2rem
+       ;
+    //    width: 70%;
+   }
+   .sub{
+    padding:10px 25px;
+    margin-top: .2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    .sub:hover{
+       scale: .95;
+        background-color: rgba(0, 0, 0, 0.111);
+    }
+
+   }
+
+         }
+    }
+
+}
 
 
 
@@ -200,6 +292,13 @@ margin-top: 1.5rem;
 
 @media (min-width:1024px){
     header{
+position: fixed;
+  top: 0;
+  left: 0;
+//   width: 100%;
+  background: white;
+  z-index: 1000;
+
     height: 4rem;
     width: 80%;
     margin-left: 5rem;
@@ -238,6 +337,8 @@ margin-top: 1.5rem;
             // display: flex;
             font-size: 15px;
              padding: .5rem;
+
+            
            
         }
         a:hover{

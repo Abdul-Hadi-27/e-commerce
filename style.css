@@ -10,6 +10,10 @@ html, body {
   background-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -19,6 +23,12 @@ main {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
   height: 4rem;
   width: 100%;
   display: flex;
@@ -137,11 +147,7 @@ header .font i {
 }
 .view-2 .top .hyphen {
   border: 1px solid #414141;
-  position: absolute;
-  width: 8%;
-  bottom: 24%;
-  left: 84%;
-  opacity: 0.8;
+  display: none;
 }
 .view-2 .bottom {
   height: 90rem;
@@ -172,8 +178,75 @@ header .font i {
   color: #414141;
 }
 
+.hero {
+  height: 42rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.hero .icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.7rem;
+}
+.hero .icons h3 {
+  font-size: 14px;
+  margin-top: 1rem;
+  opacity: 0.6;
+}
+.hero .icons p {
+  font-size: 12px;
+  margin-top: 0.5rem;
+  color: #414141;
+}
+.hero .discount {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin: 2rem;
+}
+.hero .discount h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.hero .discount p {
+  margin: 1rem;
+  opacity: 0.8;
+}
+.hero .discount .inp {
+  display: flex;
+}
+.hero .discount .inp input {
+  padding: 10px 40px;
+  margin-top: 0.2rem;
+}
+.hero .discount .inp .sub {
+  padding: 10px 25px;
+  margin-top: 0.2rem;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.hero .discount .inp .sub .sub:hover {
+  scale: 0.95;
+  background-color: rgba(0, 0, 0, 0.111);
+}
+
 @media (min-width: 1024px) {
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 1000;
     height: 4rem;
     width: 80%;
     margin-left: 5rem;
