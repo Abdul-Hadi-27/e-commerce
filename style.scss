@@ -621,25 +621,21 @@ padding: 2rem;
 }
 
 .hero{
-    position: relative;
     height: 40rem;
-    // background-color: red;
+    background-color: red;
     width: 100%;
     display: flex;
     align-items: center;
-    // justify-content: center;
-    flex-direction: row;
+    justify-content: center;
     margin-top: 5rem;
-bottom: 50%;
-// overflow-x: hidden;
 
     .icons{
         display: flex;
         align-items: center;
-       left: 12%;
+        left: 12%;
         flex-direction: column;
         margin: 1.7rem;
-        position: relative;
+        // position: relative;
         bottom: 165%;
     //  gap: 1rem;
     width: 100%;
@@ -677,7 +673,7 @@ bottom: 50%;
         margin-top: 2rem;
         // margin: 2rem;
          bottom: 135%;
-         position: relative;
+        //  position: relative;
          h3{
             font-size: 1.4rem;
             font-weight: 500;
@@ -723,7 +719,7 @@ bottom: 50%;
 }
 
 .detail{
-    position: absolute;
+    // position: absolute;
     min-height:auto;
     background-color: #F3F4F6;
     width:70%;

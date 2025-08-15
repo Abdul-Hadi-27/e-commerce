@@ -482,14 +482,13 @@ header .font i {
     color: #414141;
   }
   .hero {
-    position: relative;
     height: 40rem;
+    background-color: red;
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
     margin-top: 5rem;
-    bottom: 50%;
   }
   .hero .icons {
     display: flex;
@@ -497,7 +496,6 @@ header .font i {
     left: 12%;
     flex-direction: column;
     margin: 1.7rem;
-    position: relative;
     bottom: 165%;
     width: 100%;
     margin-left: 10rem;
@@ -521,7 +519,6 @@ header .font i {
     margin-left: 7rem;
     margin-top: 2rem;
     bottom: 135%;
-    position: relative;
   }
   .hero .discount h3 {
     font-size: 1.4rem;
@@ -556,7 +553,6 @@ header .font i {
     background-color: rgba(0, 0, 0, 0.111);
   }
   .detail {
-    position: absolute;
     min-height: auto;
     background-color: #F3F4F6;
     width: 70%;
